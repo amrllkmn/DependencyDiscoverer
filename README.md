@@ -1,4 +1,7 @@
 # Dependency Discoverer
 
 ## Description
-A coursework which tasks me to create a concurrent include file crawler. Tested my understanding of multithreading in C++.
+Large scale systems developed in C and C++ tend to include a large number of “.h” files, both of a system variety (enclosed in < >)
+and non-system (enclosed in “ ”).The make utility and Makefiles are a convenient way to record dependencies between source files,
+and to minimize the amount of work that is done when the system needs to be rebuilt.  Of course, the work will only be minimized if
+the Makefile exactly captures the dependencies between source and object files.
